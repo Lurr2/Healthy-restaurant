@@ -1,0 +1,37 @@
+@import '../../css/variables.module.scss';
+.PopularMenu {
+    height: 70vh;
+    background-color: $color-primary;
+    padding-top: 3rem;
+
+    &_heading {
+        color: $color-secondary-dark;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    &_cardSpace {
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    &_card_content{
+        background-color: white;
+        margin: 0 auto;
+    }
+    &_card_img {
+        height: 200px;
+        width: 300px;
+        }
+    &_card_title {
+        font-size: 30px;
+        background: $color-special-title;
+        background-clip: text;
+  -webkit-text-fill-color: transparent;
+       padding-left: 1rem;
+    }
+    &_card_text{
+        padding-left: 1rem; 
+        padding-bottom: 1rem;
+    }
+}

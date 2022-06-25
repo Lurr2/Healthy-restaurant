@@ -1,9 +1,12 @@
 $color-bar: #25eaf4;
+$color-primary: #D7F6CF;
 $color-secondary-dark:  #AF7EE0;
 $color-secondary-light: #DDC7F3;
 
-:export {
-    color-bar: $color-bar;
-    color-secondary-light: $color-secondary-light;
-    color-secondary-dark: $color-secondary-dark;
-}
+$color-special-title: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,42,1) 45%, rgba(138,8,75,1) 52%, rgba(150,7,7,1) 61%, rgba(0,212,255,1) 100%);
+
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
