@@ -1,0 +1,9 @@
+$color-bar: #25eaf4;
+$color-secondary-dark:  #AF7EE0;
+$color-secondary-light: #DDC7F3;
+
+:export {
+    color-bar: $color-bar;
+    color-secondary-light: $color-secondary-light;
+    color-secondary-dark: $color-secondary-dark;
+}
