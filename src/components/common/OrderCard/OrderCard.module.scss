@@ -1,0 +1,27 @@
+@import '../../../css/variables.module.scss';
+.container {
+color: $color-white;
+text-align: center;
+margin: 0 auto;
+}
+
+.numberId {
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #fff;
+    color: $color-secondary-dark;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.text{
+    
+        background: $color-special-title;
+        background-clip: text;
+        padding: 1rem;
+}
+.space {
+    padding: .5rem 0 ;
+}

@@ -1,0 +1,16 @@
+@import '../../css/variables.module.scss';
+.container {
+    height: 60vh;
+    background-color: $color-secondary-dark;
+    padding-top: 2rem;
+
+    &_heading {
+        color: $color-white;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+.OrdercardContainer {
+    display: flex;
+    justify-content: center;
+}
