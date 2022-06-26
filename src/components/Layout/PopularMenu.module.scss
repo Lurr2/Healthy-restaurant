@@ -11,6 +11,7 @@
     }
     &_cardSpace {
         display: flex;
+        align-items: flex-start;
         justify-content: space-around;
         
         
@@ -27,8 +28,7 @@
         font-size: 30px;
         background: $color-special-title;
         background-clip: text;
-  -webkit-text-fill-color: transparent;
-       padding-left: 1rem;
+        padding-left: 1rem;
     }
     &_card_text{
         padding-left: 1rem; 

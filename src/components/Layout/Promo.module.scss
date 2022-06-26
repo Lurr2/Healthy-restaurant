@@ -1,0 +1,29 @@
+.container {
+
+display: flex;
+flex-direction: row;
+}
+
+.img {
+    width: 50%;
+    height: 50vh;
+    background-image: url('../../img/promo_1.jpg');
+    background-size: cover;
+    
+
+    &_b {
+        width: 50%;
+        height: 50vh;
+        background: url('../../img/promo_2.jpg');
+        background-size: cover;
+       
+    }
+}
+
+
+.text {
+
+    width: 50%;
+    background-color: green;
+    height: 50vh;
+}

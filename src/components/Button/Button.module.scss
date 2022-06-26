@@ -1,0 +1,30 @@
+@import '../../css/variables.module.scss';
+.btn {
+  align-items: center;
+  background-color: $color-secondary-dark;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: $color-white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.btn:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+

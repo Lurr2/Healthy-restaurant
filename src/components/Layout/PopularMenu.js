@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import classes from './PopularMenu.module.scss';
+import Button from "../Button/Button";
+
 import card_1 from '../../img/card_1.jpg';
 import card_2 from '../../img/card_2.jpg';
 import card_3 from '../../img/card_3.jpg';
@@ -32,6 +34,7 @@ const PopularMenu = () => {
             <h4 className={classes.PopularMenu_card_text}>$ 14</h4>
         </div>
     </div>
+    <Button/>
     </section>
 </Fragment>
     );
