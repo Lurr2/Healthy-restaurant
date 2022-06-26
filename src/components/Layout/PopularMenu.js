@@ -1,42 +1,34 @@
-import { Fragment } from "react";
+
 import classes from './PopularMenu.module.scss';
 import Button from "../Button/Button";
 
 import card_1 from '../../img/card_1.jpg';
 import card_2 from '../../img/card_2.jpg';
 import card_3 from '../../img/card_3.jpg';
+import Card from '../common/card/Card';
 
 const PopularMenu = () => {
+    const popular = [
+        {title: `Salad`, details: `Some dummy text for obtaining space in the future`, price: '$14', image: card_1},
+        {title: `Salad`, details: `Some dummy text for obtaining space in the future`, price: '$8', image: card_2},
+        {title: `Salad`, details: `Some dummy text for obtaining space in the future`, price: '$10', image: card_3}
+    ]
 
     return (
-<Fragment>
+
     <section className={classes.PopularMenu}>
         <div>
             <h1 className={classes.PopularMenu_heading}>Most popular choices</h1>
+            <div className={classes.cardContainer}>
+                {popular.map(someBestDish => (
+                    <Card PopularDishes={someBestDish}/>
+                ))}
+            </div>
+
         </div>
-    <div className={classes.PopularMenu_cardSpace}>
-        <div className={classes.PopularMenu_card_content}>
-            <img className={classes.PopularMenu_card_img} src={card_1} alt="noodle"/>
-            <h2 className={classes.PopularMenu_card_title}>Noodle</h2>
-            <p className={classes.PopularMenu_card_text}>pitu pitu na patiku tekst</p>
-            <h4 className={classes.PopularMenu_card_text}>$ 14</h4>
-        </div>
-        <div className={classes.PopularMenu_card_content}>
-            <img className={classes.PopularMenu_card_img} src={card_2} alt="noodle"/>
-            <h2 className={classes.PopularMenu_card_title}>Noodle</h2>
-            <p className={classes.PopularMenu_card_text}>pitu pitu na patiku tekst</p>
-            <h4 className={classes.PopularMenu_card_text}>$ 14</h4>
-        </div>
-        <div className={classes.PopularMenu_card_content}>
-            <img className={classes.PopularMenu_card_img} src={card_3} alt="noodle"/>
-            <h2 className={classes.PopularMenu_card_title}>Noodle</h2>
-            <p className={classes.PopularMenu_card_text}>pitu pitu na patiku tekst</p>
-            <h4 className={classes.PopularMenu_card_text}>$ 14</h4>
-        </div>
-    </div>
-    <Button/>
+        <Button buttonText ={`Show more`}/>
     </section>
-</Fragment>
+
     );
 
 };

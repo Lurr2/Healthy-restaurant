@@ -1,0 +1,19 @@
+@import '../../../css/variables.module.scss';
+.container {
+background-color: $color-white;
+margin: 0 auto;
+}
+.picture {
+    max-height: 250px;
+    width: 100%;
+    }
+
+.text{
+    
+        background: $color-special-title;
+        background-clip: text;
+        padding: 1rem;
+}
+.space {
+    padding: .5rem 0 ;
+}

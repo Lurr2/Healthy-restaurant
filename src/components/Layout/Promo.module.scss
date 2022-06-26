@@ -1,29 +1,34 @@
+@import '../../css/variables.module.scss';
 .container {
-
 display: flex;
 flex-direction: row;
 }
 
-.img {
+.imgSide {
     width: 50%;
-    height: 50vh;
-    background-image: url('../../img/promo_1.jpg');
-    background-size: cover;
-    
-
-    &_b {
-        width: 50%;
-        height: 50vh;
-        background: url('../../img/promo_2.jpg');
-        background-size: cover;
-       
-    }
+    height: 70vh;
+}
+.imgs{
+    width: 100%;
+    height: 100%;
 }
 
-
-.text {
-
+.textSide {
     width: 50%;
-    background-color: green;
-    height: 50vh;
+    background-color: $color-white;
+    height: 70vh;
+    padding: 50px;
+    
+    &_box{
+        width: 25rem;
+        
+        &_h{
+            font-size: 40px;
+            padding-bottom: 1rem;
+        }
+        &_p{
+            font-size: 20px;
+            padding-bottom: 1rem;
+        }
+    }
 }
