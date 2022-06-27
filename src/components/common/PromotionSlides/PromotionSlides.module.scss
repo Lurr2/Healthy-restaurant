@@ -1,0 +1,16 @@
+.container {
+display: flex;
+color: white;
+
+    .content, .picture {
+        flex: 1;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        text-align: center;
+        margin: auto 0;
+    }
+}

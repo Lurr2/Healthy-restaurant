@@ -1,16 +1,17 @@
 @import '../../css/variables.module.scss';
 .PopularMenu {
-    height: 70vh;
+    
     background-color: $color-primary;
     padding-top: 3rem;
+    text-align: center;
 
     &_heading {
         color: $color-secondary-dark;
         margin-bottom: 3rem;
         text-align: center;
     }
-}
-.cardContainer {
-    display: flex;
-    justify-content: center;
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+    }
 }
