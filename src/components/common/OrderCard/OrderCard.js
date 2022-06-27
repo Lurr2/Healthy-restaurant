@@ -1,16 +1,15 @@
 import React from 'react';
 import classes from './OrderCard.module.scss';
 
-const OrderCard = OrderList => {
-    const OrderItem = OrderList.OrderList;
+const OrderCard = ({OrderList}) => {
     return (
         <div className={classes.container}>
             <div className={classes.numberId}>
-                {OrderItem.id}
+                {OrderList.id}
             </div>
             <div className={classes.text}>
-                <h2>{OrderItem.title}</h2>
-                <p className={classes.space}>{OrderItem.text}</p>
+                <h2>{OrderList.title}</h2>
+                <p className={classes.space}>{OrderList.text}</p>
             </div>
         </div>
     );

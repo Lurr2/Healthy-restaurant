@@ -1,9 +1,9 @@
 import classes from './Button.module.scss';
 
-const Button = buttonText => {
+const Button = ({buttonText}) => {
 
     return (
-        <button className={classes.btn}>{buttonText.buttonText}</button>
+        <button className={classes.btn}>{buttonText}</button>
     )
 
 };

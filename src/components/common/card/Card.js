@@ -1,17 +1,17 @@
 import React from 'react';
 import classes from './Card.module.scss';
 
-const Card = PopularDishes => {
-    const bestDish = PopularDishes.PopularDishes;
+const Card = ({PopularDishes}) => {
+    
     return (
         <div className={classes.container}>
             <div>
-                <img className={classes.picture} src={bestDish.image} alt='salad'/>
+                <img className={classes.picture} src={PopularDishes.image} alt='salad'/>
             </div>
             <div className={classes.text}>
-                <h2>{bestDish.title}</h2>
-                <p className={classes.space}>{bestDish.details}</p>
-                <h4>{bestDish.price}</h4>
+                <h2>{PopularDishes.title}</h2>
+                <p className={classes.space}>{PopularDishes.details}</p>
+                <h4>{PopularDishes.price}</h4>
             </div>
         </div>
     );
