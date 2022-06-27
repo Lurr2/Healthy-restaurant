@@ -1,0 +1,35 @@
+@import '../../css/variables.module.scss';
+.container {
+    height: 90vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-dark, 0.6),
+        rgba($color-secondary-light, 0.6)),
+        url(https://images.unsplash.com/photo-1529059997568-3d847b1154f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        text-align: center;
+    
+    .deliveryTextBox{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: $color-primary;
+        width: 40rem;
+    }
+        
+    .title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        padding-bottom: 2rem;
+    }
+    .text{
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+    
+}

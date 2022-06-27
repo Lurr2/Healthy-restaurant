@@ -1,6 +1,8 @@
+@import '../../../css/variables.module.scss';
+
 .container {
 display: flex;
-color: white;
+background-color: $color-white;
 
     .content, .picture {
         flex: 1;

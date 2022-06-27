@@ -12,10 +12,15 @@ const Order = () => {
 
     <section className={classes.container}>
         <div>
-            <h1 className={classes.container_heading}>Most popular choices</h1>
+            <h1 className={classes.container_heading}>How to order?</h1>
             <div className={classes.OrdercardContainer}>
                 {OrderData.map(someOrder => (
-                    <OrderCard key={someOrder.id} OrderList={someOrder}/>
+                    <OrderCard 
+                    key={someOrder.id} 
+                    id={someOrder.id}
+                    title={someOrder.title}
+                    text={someOrder.text}
+                    />
                 ))}
             </div>
 

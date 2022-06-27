@@ -9,7 +9,7 @@ if(direction === 'left') {
     return (
         <div className={classes.container}>
             <div className={classes.picture}>
-                <img alt="gowno" src={image} />
+                <img alt="something" src={image} />
             </div>
             <div className={classes.content}>
                 <h2>{title}</h2>
@@ -28,7 +28,7 @@ if(direction === 'left') {
             <Button buttonText={`Show More!!`} />
         </div>
         <div className={classes.picture}>
-            <img alt="gowno" src={image} />
+            <img alt="something" src={image} />
         </div>
     </div>
     

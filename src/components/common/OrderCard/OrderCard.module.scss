@@ -1,8 +1,11 @@
 @import '../../../css/variables.module.scss';
 .container {
 color: $color-white;
+display: flex;
+align-items: center;
+flex-direction: column;
 text-align: center;
-margin: 0 auto;
+
 }
 
 .numberId {
@@ -12,7 +15,7 @@ margin: 0 auto;
     background: #fff;
     color: $color-secondary-dark;
     font-size: 20px;
-    justify-content: center;
+  
 
 }
 

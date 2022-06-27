@@ -1,22 +1,28 @@
-import { Fragment } from "react"; 
-import Header from "./components/Layout/Header";
-import PopularMenu from "./components/Layout/PopularMenu";
-import NavigationBar from "./components/Navigation/NavigationBar";
-import Promo from "./components/Layout/Promo";
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Home from './components/Pages/Home/Home';
+
 import './css/base.module.scss';
-import Order from "./components/Order/Order";
+
+import MainLayout from './components/Layout/MainLayout/MainLayout';
+import Menu from './components/Pages/Menu/Menu';
+import Promos from './components/Pages/Promos/Promos';
+import Order from './components/Pages/Order/Order';
 
 
 
 function App() {
   return (
-    <Fragment>
-      <NavigationBar/>
-      <Header/>
-      <PopularMenu/>
-      <Promo/>
-      <Order/>
-    </Fragment>
+    <Router basename='/'>
+      <MainLayout>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='menu' element={<Menu />} />
+          <Route path='promos' element={<Promos/>} />
+          <Route path='order' element={<Order />} />
+          <Route path="*" element={<Navigate to="/" replace />}/>
+        </Routes>
+      </MainLayout>
+    </Router>
   );
 }
 

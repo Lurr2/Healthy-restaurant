@@ -2,7 +2,6 @@
 .container {
 background-color: $color-white;
 margin: 0 auto;
-}
 .picture {
     max-height: 250px;
     width: 100%;
@@ -13,7 +12,13 @@ margin: 0 auto;
         background: $color-special-title;
         background-clip: text;
         padding: 1rem;
+
+}
+.testRed {
+    color: red;
 }
 .space {
     padding: .5rem 0 ;
 }
+}
+
