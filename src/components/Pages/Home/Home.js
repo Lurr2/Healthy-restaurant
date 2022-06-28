@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../../About/About';
 import FreeDelivery from '../../FreeDelivery/FreeDelivery';
 import Header from '../../Layout/Header';
 import PopularMenu from '../../Layout/PopularMenu';
@@ -15,6 +16,7 @@ const Home = () => {
             <Order/>
             <FreeDelivery />
             <Partners />
+            <About />
         </div>
     );
 };

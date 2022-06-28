@@ -1,0 +1,15 @@
+@import '../../../../css/variables.module.scss';
+.container {
+    background-color: $color-secondary-dark;
+    display: flex;
+  color: $color-white;
+
+    .left_side, .right_side{
+        flex: 1;
+    }
+    .right_side{
+        flex-direction: row;
+        background-color: black;
+        
+    }
+}
