@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './PromosCard.module.scss'
+import classes from './PromosCard.module.scss';
 
-const PromosCard = ({ price, title, details, image }) => {
+const PromosCard = ({ title, details, image }) => {
     return (
         <div className={classes.container}>
             <img src={image} alt="some" />
