@@ -12,7 +12,7 @@ const About = () => {
                 <p>Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future.</p>
             </div>
             <div className={classes.right}>
-               {data.map(element => (
+               {data.about.map(element => (
                 <AboutCard 
                 key={element.id}
                 title={element.title}

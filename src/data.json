@@ -1,13 +1,19 @@
 
-    
-       
-         [
+  {  
+       "about": [
                 {"id": "2", "title":"About", "team":"Team", "joinus":"Join us", "ethic":"Ethic", "goals":"Goals"},
                 {"id": "3", "title":"About", "team":"Team", "joinus":"Join us", "ethic":"Ethic", "goals":"Goals"},
                 {"id": "4", "title":"About", "team":"Team", "joinus":"Join us", "ethic":"Ethic", "goals":"Goals"}
-         
-            ]
-  
         
+       ],
+        "menu": [
+            {"id": "1", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"},
+            {"id": "2", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"},
+            {"id": "3", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image": "https://images.unsplash.com/photo-1604497181015-76590d828b75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"},
+            {"id": "4", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image":"https://images.unsplash.com/photo-1543339318-b43dc53e19b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},
+            {"id": "5", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image":"https://images.unsplash.com/photo-1556040220-4096d522378d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"},
+            {"id": "6", "price": "15.99", "title": "Salad", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image":"https://images.unsplash.com/photo-1625128726814-461fc67f682d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"}
 
-
+        ]
+        
+        }

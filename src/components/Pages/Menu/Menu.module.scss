@@ -1,0 +1,8 @@
+@import '../../../css/variables.module.scss';
+
+.MenuContainer {
+    background-color: $color-primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

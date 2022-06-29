@@ -11,7 +11,7 @@ const NavigationBar = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink to='/home' className={navData => navData.isActive ? classes.active : '' }>
+            <NavLink to='/' className={navData => navData.isActive ? classes.active : '' }>
               Home
             </NavLink>
           </li>

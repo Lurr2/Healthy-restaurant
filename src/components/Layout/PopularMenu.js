@@ -26,7 +26,7 @@ const PopularMenu = () => {
             </div>
 
         </div>
-        <Button buttonText ={`Show more`}/>
+        <Button buttonText ={`Show all menu`}/>
     </section>
 
     );
