@@ -19,20 +19,26 @@ const Promos = () => {
     return (
         <section className={classes.promosContainer}>
             <div className={classes.left}>
+            
             {data.promos.map(promo => (
+                <div key={promo.id} onClick={() => {
+                    handlePromoClick(promo.id)
+                }}>
                 <PromosCard
-                key={promo.id}
-                id={promo.id}
+                
                 details={promo.details}
                 title={promo.title}
                 image={promo.image}
-                eventClickFunction={handlePromoClick}
                 />
+                </div>
             ))}
             
             </div>
             <div className={classes.right}>
-            {activePromo.promo[0].title}
+            <h2>{activePromo.promo[0].title}</h2>
+            <p>{activePromo.promo[0].details}</p>
+            <p className={classes.line}>{activePromo.promo[0].price}$</p>
+            <p>{Math.floor((activePromo.promo[0].price - (activePromo.promo[0].discount * activePromo.promo[0].price)) * 100) / 100}$</p>
             
             </div>
         </section>

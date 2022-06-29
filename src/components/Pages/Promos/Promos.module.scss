@@ -6,5 +6,13 @@
     
     .left , .right{
         flex: 1;
+
+    }
+    .right {
+        text-align: center;
+        margin: auto 0;
+    }
+    .line {
+        text-decoration: line-through;
     }
 }
