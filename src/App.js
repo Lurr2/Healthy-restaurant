@@ -16,9 +16,9 @@ function App() {
       <MainLayout>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route path='menu' element={<Menu />} />
-          <Route path='promos' element={<Promos/>} />
-          <Route path='order' element={<Order />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/promos' element={<Promos/>} />
+          <Route path='/order' element={<Order />} />
           <Route path="*" element={<Navigate to="/" replace />}/>
         </Routes>
       </MainLayout>

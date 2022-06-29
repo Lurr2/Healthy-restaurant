@@ -1,0 +1,10 @@
+@import '../../../css/variables.module.scss';
+
+.promosContainer {
+    background-color: $color-primary;
+    display: flex;
+    
+    .left , .right{
+        flex: 1;
+    }
+}

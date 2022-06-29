@@ -6,6 +6,7 @@ import card_1 from '../../img/card_1.jpg';
 import card_2 from '../../img/card_2.jpg';
 import card_3 from '../../img/card_3.jpg';
 import Card from '../common/card/Card';
+import { Link } from 'react-router-dom';
 
 const PopularMenu = () => {
     const popular = [
@@ -26,7 +27,9 @@ const PopularMenu = () => {
             </div>
 
         </div>
+        <Link to="/menu">
         <Button buttonText ={`Show all menu`}/>
+        </Link>
     </section>
 
     );
