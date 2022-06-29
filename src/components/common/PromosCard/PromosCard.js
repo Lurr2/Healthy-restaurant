@@ -1,9 +1,12 @@
 import React from 'react';
 import classes from './PromosCard.module.scss';
 
-const PromosCard = ({ title, details, image }) => {
+const PromosCard = ({id, eventClickFunction, title, details, image }) => {
+    const CardClick = () => {
+        return eventClickFunction(id)
+    }
     return (
-        <div className={classes.container}>
+        <div onClick={CardClick} className={classes.container}>
             <img src={image} alt="some" />
 
             <div className={classes.content}>

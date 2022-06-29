@@ -5,7 +5,7 @@ import data from '../../../data.json';
 
 const Promos = () => {
     const [activePromo, setUpPromo] = useState({
-       promo: data.promos[1]
+       promo: {0: data.promos[1]},
     })
 
     const handlePromoClick = (id) => {
@@ -15,22 +15,24 @@ const Promos = () => {
             })})
 
     }
+   
     return (
         <section className={classes.promosContainer}>
             <div className={classes.left}>
             {data.promos.map(promo => (
                 <PromosCard
                 key={promo.id}
+                id={promo.id}
                 details={promo.details}
                 title={promo.title}
                 image={promo.image}
-                onClick={handlePromoClick}
+                eventClickFunction={handlePromoClick}
                 />
             ))}
             
             </div>
             <div className={classes.right}>
-            Tutaj bedzie potem tekstus
+            {activePromo.promo[0].title}
             
             </div>
         </section>
