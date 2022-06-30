@@ -9,9 +9,15 @@
         color: $color-secondary-dark;
         margin-bottom: 3rem;
         text-align: center;
+        font-size: 2rem;
     }
     .cardContainer {
         display: flex;
         justify-content: center;
     }
+    @media only screen and (max-width: 900px) {
+        .cardContainer {
+          flex-direction: column;
+        }
+      }
 }
