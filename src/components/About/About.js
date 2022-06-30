@@ -8,7 +8,7 @@ const About = () => {
     return (
         <section className={classes.container}>
             <div className={classes.left}>
-                <h4>Naglowek</h4>
+                <h4>About</h4>
                 <p>Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future. Some dummy text for obtaining space in the future.</p>
             </div>
             <div className={classes.right}>

@@ -36,9 +36,9 @@ const Promos = () => {
             </div>
             <div className={classes.right}>
             <h2>{activePromo.promo[0].title}</h2>
-            <p>{activePromo.promo[0].details}</p>
-            <p className={classes.line}>{activePromo.promo[0].price}$</p>
-            <p>{Math.floor((activePromo.promo[0].price - (activePromo.promo[0].discount * activePromo.promo[0].price)) * 100) / 100}$</p>
+            <p className={classes.details}>{activePromo.promo[0].details}</p>
+            <h4 className={classes.line}>Before {activePromo.promo[0].price}$</h4>
+            <h2>Now {Math.floor((activePromo.promo[0].price - (activePromo.promo[0].discount * activePromo.promo[0].price)) * 100) / 100}$</h2>
             
             </div>
         </section>

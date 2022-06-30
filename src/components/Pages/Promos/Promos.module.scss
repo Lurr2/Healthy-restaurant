@@ -11,6 +11,10 @@
     .right {
         text-align: center;
         margin: auto 0;
+        color: $color-secondary-dark;
+    }
+    .details {
+        padding: 2rem 0;
     }
     .line {
         text-decoration: line-through;

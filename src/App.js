@@ -6,7 +6,7 @@ import './css/base.module.scss';
 import MainLayout from './components/Layout/MainLayout/MainLayout';
 import Menu from './components/Pages/Menu/Menu';
 import Promos from './components/Pages/Promos/Promos';
-import Order from './components/Pages/Order/Order';
+import OrderPage from './components/Pages/Order/OrderPage';
 
 
 
@@ -18,7 +18,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/promos' element={<Promos/>} />
-          <Route path='/order' element={<Order />} />
+          <Route path='/order' element={<OrderPage />} />
           <Route path="*" element={<Navigate to="/" replace />}/>
         </Routes>
       </MainLayout>

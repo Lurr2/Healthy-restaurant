@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './FreeDelivery.module.scss';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
 
 
 const FreeDelivery = () => {
@@ -13,7 +14,9 @@ const FreeDelivery = () => {
                     Some dummy text for obtaining space in the future.
                     Some dummy text for obtaining space in the future.
                     Some dummy text for obtaining space in the future.</p>
-                    <Button buttonText={`Show More!!`} />
+                    <Link to="/order">
+                    <Button buttonText={`Show How!!`} />
+                    </Link>
             </div>
             
         </section>
