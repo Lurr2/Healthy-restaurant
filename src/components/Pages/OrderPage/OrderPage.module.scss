@@ -1,0 +1,26 @@
+@import '../../../css/variables.module.scss';
+.container {
+    background-color: $color-secondary-dark;
+    display: flex;
+    
+    
+    .leftSide , .rightSide{
+        flex: 1;
+
+    }
+    .rightSide {
+        text-align: center;
+        margin: auto 0;
+        padding: 4rem;
+        color: $color-white;
+    }
+    .title {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        
+    }
+    .details {
+        font-size: 2rem;
+       
+    }
+}

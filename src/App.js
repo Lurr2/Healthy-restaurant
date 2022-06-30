@@ -6,7 +6,7 @@ import './css/base.module.scss';
 import MainLayout from './components/Layout/MainLayout/MainLayout';
 import Menu from './components/Pages/Menu/Menu';
 import Promos from './components/Pages/Promos/Promos';
-import OrderPage from './components/Pages/Order/OrderPage';
+import OrderPage from './components/Pages/OrderPage/OrderPage';
 
 
 

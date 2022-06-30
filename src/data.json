@@ -22,6 +22,14 @@
           {"id": "3", "discount":"0.2", "price": "19.99", "title": "Some green food", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales.", "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"}
 
 
+        ],
+
+        "orders": [
+          {"id": "1", "titleNum":"01", "title": "Choose your meal", "details":"Take your time think and decide what you want 😁. Then go to step 2"},
+          {"id": "2", "titleNum":"02", "title": "Pick desired amounts", "details":"Add more meals if you desire 😋"},
+          {"id": "3", "titleNum":"03", "title": "Hit order button", "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia tellus sed tellus sollicitudin, et auctor neque sodales."}
+
+
         ]
 
         }
