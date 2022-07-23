@@ -8,14 +8,32 @@
         flex: 1;
 
     }
+    @media only screen and (max-width: 900px) {
+        .left {
+            font-size: .8rem;
+        }
+    }
+    
+    
     .right {
         text-align: center;
         margin: auto 0;
         color: $color-secondary-dark;
     }
-    .details {
-        padding: 2rem 0;
+    @media only screen and (max-width: 900px) {
+        .right {
+            padding: 2rem;
+        }
     }
+    @media only screen and (max-width: 600px) {
+        .right {
+            padding: 1rem;
+        }
+    }
+    .details {
+        padding: 1rem 0;
+    }
+    
     .line {
         text-decoration: line-through;
     }

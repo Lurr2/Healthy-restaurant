@@ -19,11 +19,27 @@
         text-align: center;
         margin: auto 0;
     }
+    @media only screen and (max-width: 600px) {
+        .content {
+            padding: .5rem;
+        }
+    }
 
 
     img {
         height: 200px;
         width: 350px;
         object-fit: cover;
+    }
+    @media only screen and (max-width: 900px) {
+        img {
+            height: 150px;
+            width: 250px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
     }
 }

@@ -1,9 +1,13 @@
 import React from 'react';
 import classes from './OrderPageCard.module.scss';
 
-const OrderPageCard = ({ title, titleNum }) => {
+const OrderPageCard = ({ id, func, title, titleNum }) => {
+    const tableClick = () => {
+        func(id)
+    }
+
     return (
-        <div className={classes.container}>
+        <div onClick={tableClick} className={classes.container}>
             <div className={classes.titleNumber}>
                 <p>{titleNum}</p>
             </div>
