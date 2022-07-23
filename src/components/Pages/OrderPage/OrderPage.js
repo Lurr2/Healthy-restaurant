@@ -39,7 +39,7 @@ const OrderPage = () => {
             <div className={classes.rightSide}>
                 {activeOrder.order[0].id === "3" 
                     ? 
-                    <Button buttonText={`dupa`} />
+                    <Button buttonText={`Order Now!!!`} />
                     : <div><h2 className={classes.title}>{activeOrder.order[0].title}</h2>
                         <p className={classes.details}>{activeOrder.order[0].details}</p></div>
                 }

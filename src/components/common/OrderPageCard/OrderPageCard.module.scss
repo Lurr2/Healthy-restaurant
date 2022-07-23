@@ -27,4 +27,12 @@
         color: $color-secondary-dark;
         font-size: 20px;
     }
+    
+}
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 1rem;
+        margin: 1rem 4rem;
+    }
+    
 }
